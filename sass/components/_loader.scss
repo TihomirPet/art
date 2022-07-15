@@ -1,0 +1,32 @@
+.loader {
+
+   background-image: url('../../public/images/loader_back.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 111vw auto;
+    
+    background-position: -11vw -22vh;
+
+
+
+  .loader-wrapper {
+    height: 100%;
+    width: 69.5%;
+  }
+
+  .loader-top {
+    background-color: rgb(274, 181, 3, 0.61);
+    height: 72%;
+    width: 100%;
+  }
+  .loader-bottom {
+    background-color: rgb(100, 1, 33, 0.55);
+    height: 27.9%;
+    width: 100%;
+  }
+  .loader-right {
+    background-color: rgb(253, 247, 215, 0.69);
+    height: 100%;
+    width: 30.5%;
+  }
+}
