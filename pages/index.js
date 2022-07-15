@@ -13,7 +13,7 @@ import gsap from 'gsap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export async function getStaticProps() {
-  const response = await fetch('http://localhost:4001/art/');
+  const response = await fetch(`${window.location.origin}/art/`);
 
   const data = await response.json();
 
